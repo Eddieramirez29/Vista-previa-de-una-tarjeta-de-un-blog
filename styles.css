@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(47, 88%, 63%);
+}
+
+.container
+{  
+    background-color: white;
+    position: absolute;
+    width: 280px; /* Ajusta este valor según sea necesario */
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #020202; /* Solo para visualización, puedes quitarlo */
+    border-right: 5px solid #020202;
+    border-bottom: 5px solid #020202;
+    border-radius: 10px;
+    
+    
+}
+
+.container_image
+{
+    width: 270px; /* Ajusta este valor según sea necesario */
+    height: 170px;
+    position: absolute;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container_image img
+{
+    width: 100%; /* Cambiado a porcentaje para ajustarse al ancho del contenedor */
+    border-radius: 25px;  
+}
+
+.container_label-learning
+{
+    position: absolute;
+    background-color:hsl(47, 88%, 63%);
+    top: 180px;
+    right: 195px;
+    height: 25px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.container_label-learning label
+{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.container_label-date
+{
+    position: absolute;
+    top: 210px;
+    right: 120px;
+}
+
+.container_label-date label
+{
+    font-size: small;
+}
+
+.container_button
+{
+    position: absolute;
+    top: 240px;
+    left: 18px;
+}
+
+.container_button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+.container_button a:hover
+{
+    color: hsl(47, 88%, 63%);
+}
+
+.container_text
+{
+    position: absolute;
+    top: 270px;
+    left: 18px;  
+}
+
+.container_text label
+{
+    color: gray;
+    font-size: smaller;
+}
+
+.container_imageAvatar
+{
+    position: absolute;
+    top: 330px;
+    left: 18px;  
+    
+}
+
+.container_imageAvatar img
+{
+  height: 30px;
+}
+
+.container_imageAvatar label
+{
+    position: absolute;
+    font-size: smaller;
+    font-weight: bold;
+    left: 40px;
+    top: 5px;
+    width: 100px;
+}
